@@ -237,11 +237,11 @@ ax1 = axes(figObj);
 
 ## Algorithm Core Module
 
-In each iteration, the algorithm receives four fisheye images. During the first frame, it performs additional necessary initializations, as the subsequent "mapping algorithm" depends on the valid mask areas. Furthermore, the physical coordinate reference is based on the camera center of the combined front view from the four fisheye panoramic images, designated as the origin of the vehicle's coordinate system. The image coordinate reference is based on the pixel coordinate system of the first stitched image.
+In each iteration, the algorithm receives four fisheye images. During the first frame, it performs additional necessary initializations, as the subsequent "mapping algorithm" depends on the valid mask areas. Furthermore, the physical coordinate reference is based on the camera center of the combined front view from the four fisheye panoramic images, designated as the origin of the [vehicle's coordinate system](https://www.mathworks.com/help/driving/ug/coordinate-systems.html#bvhvas6). The image coordinate reference is based on the pixel coordinate system of the first stitched image.
 
 ```matlab
 while imdsCombined.hasdata()
-    % step0:每次迭代拿到当前图像和传感器数据
+    % step0:每次迭代拿到当前图像
     num = num+1;
     dataOut = read(imdsCombined);
     if num<N
