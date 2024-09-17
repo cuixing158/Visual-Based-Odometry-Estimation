@@ -1,6 +1,8 @@
 
 # Visual-Based Odometry Estimation
 
+[![View Visual-Based-Odometry-Estimation on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/171774-visual-based-odometry-estimation)
+
 ![HDmap](./images/HDmap.jpg)
 
 Concise MATLAB code for stitching panoramic images from four fisheye cameras in a vehicle's surround view system. For more information, please refer to [VisualBasedOdometryEstimation.md](./VisualBasedOdometryEstimation.md) or simply click [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=cuixing158/Visual-Based-Odometry-Estimation&file=VisualBasedOdometryEstimation.mlx) for out-of-the-box usage!
